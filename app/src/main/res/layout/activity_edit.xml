@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".managmenttarghe.EditActivity">
+
+
+
+    <include layout="@layout/content_edit" android:id="@+id/content_edit" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_anchor="@id/content_edit"
+        app:layout_anchorGravity="bottom|center"
+        app:srcCompat="@drawable/ic_save" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/speech_recognition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        app:layout_anchor="@+id/content_edit"
+        app:layout_anchorGravity="bottom|end"
+        app:srcCompat="@drawable/ic_action_mic"
+        tools:ignore="VectorDrawableCompat" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout >

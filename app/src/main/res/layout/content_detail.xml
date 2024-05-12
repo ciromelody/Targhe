@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".managmenttarghe.DetailsActivity"
+    tools:showIn="@layout/activity_details">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context=".ManagmentEmail.DetailsActivity">
+
+
+        <TextView
+            android:text="Targa"
+            android:textColor="@color/ciroparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/carattere_grande"
+            android:id="@+id/id_tx_details_TextTarga"
+            android:layout_marginBottom="16dp"
+            />
+        <TextView
+            android:text="Marca Veicolo"
+            android:textColor="@color/ciroparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_tx_details_TextMarcaVeicolo" />
+        <TextView
+            android:text="Cognome"
+            android:textColor="@color/ciroparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/carattere_grande"
+            android:id="@+id/id_tx_details_TextCognome"
+            android:layout_marginBottom="16dp"
+            />
+        <TextView
+            android:text="Nome"
+            android:textColor="@color/ciroparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/carattere_grande"
+            android:id="@+id/id_tx_details_TextNome"
+            android:layout_marginBottom="16dp"
+            />
+        <TextView
+            android:text="Pass"
+            android:textColor="@color/ciroparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/carattere_grande"
+            android:id="@+id/id_tx_details_TextPass"
+            android:layout_marginBottom="16dp"
+            />
+        <TextView
+            android:text="Telefono"
+            android:textColor="@color/ciroparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/carattere_grande"
+            android:id="@+id/id_tx_details_TextTelefono"
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:text="Ente di appartenenza"
+            android:textColor="@color/ciroparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:id="@+id/id_tx_details_TextEntediAppartenenza"
+            android:layout_marginBottom="16dp"
+            />
+        <TextView
+            android:text="Note"
+            android:textColor="@color/ciroparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:id="@+id/id_tx_details_TextNote"
+            android:layout_marginBottom="16dp"
+            />
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
